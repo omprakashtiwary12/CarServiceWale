@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MaterialTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:dialogTheme">@style/MyDialogTheme</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor">@color/screen_normal</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnSecondary">@color/screen_normal</item>
+        <item name="colorPrimaryDark">?android:colorBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="boxStrokeColor">@color/boxStrokeColor</item>
+        <item name="android:navigationBarColor">@color/screen_normal</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <!--        <item name="colorOnSecondary">@color/white</item>-->
+        <item name="shapeAppearanceOverlay">@style/RoundShapeAppearance</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>

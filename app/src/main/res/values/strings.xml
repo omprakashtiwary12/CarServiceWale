@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">CarServiceWale</string>
+    <string name="cerificate">sha256/+hWIENSdwbU1lOWjpDj/uzYQzjhupXRUmQMlcfN88WA=</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homefragment">Home</string>
+    <string name="booking">New Booking</string>
+    <string name="booking_list">Booking List</string>
+    <string name="complain">Complain</string>
+    <string name="edit_profile">Profile</string>
+    <string name="save">Save</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="turn_on_location_services">Turn on Location Services</string>
+    <string name="want_to_see_merchant_nearby">Want to see Merchants nearby ?</string>
+    <string name="privacy_n_tnc">By proceeding forward you consent to agree to our <a href="#tnc">Terms &amp; Conditions</a> and <a href="#pp">Privacy Policy</a></string>
+    <string name="err_read_permission">Read permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="err_write_permission">Write permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="err_phone_permission">Please grant phone permission to proceed further.</string>
+    <string name="err_camera_not_found"> Camera Not Found.Please allow camera permission in App Settings.</string>
+    <string name="err_camera_permission">Camera permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="err_location_permission">Location permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="err_contact_permission">Contact Read permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="scan_qr_code">Scan the NowNow \n QR Code to Pay</string>
+    <string name="share">Share</string>
+    <string name="share_qr_code">Share QR code to pay</string>
+    <string name="qr_code">QR Code</string>
+    <string name="err_generic_permission">One or more required permission are missing. Please grant
+        access to all permissions from App Settings.
+    </string>
+    <string name="as_per_cbn_guidelines">As per CBN guidelines please complete your KYC to continue enjoying full benefits of your wallet</string>
+    <string name="get_your_kyc_done">Get your KYC done</string>
+    <string name="ok">OK</string>
+    <string name="open_settings">Open settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="proceed">Proceed</string>
+    <string name="permission_alert">Can not proceed without required permission</string>
+    <string name="select_city">CITY</string>
+    <string name="select_veihcle">VEHICLE TYPE</string>
+    <string name="select_brand">BRAND</string>
+    <string name="select_model">MODEL</string>
+    <string name="select_fuel_type">FFUEL TYPE</string>
+    <string name="search_service_center">SEARCH SERVICE CENTER</string>
+
+    <string-array name="cities">
+        <item>Delhi</item>
+        <item>Kolkata</item>
+    </string-array>
+</resources>

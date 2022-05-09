@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright (c)
+  ~ 4/5/21 11:36 AM
+  ~ 2021
+  ~ omprakashtiwari
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16.623dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16.623">
+  <path
+      android:pathData="M1.88,11.574v2.551h2.551l7.524,-7.524 -2.551,-2.552zM13.928,4.628a0.678,0.678 0,0 0,0 -0.959L12.337,2.08a0.678,0.678 0,0 0,-0.959 0l-1.246,1.241L12.68,5.873l1.245,-1.245z"
+      android:fillColor="#5a189a"/>
+</vector>

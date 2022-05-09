@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.commdel.carservicewale.ui.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/bookingFragment"
+        android:name="com.commdel.carservicewale.ui.fragments.BookingFragment"
+        android:label="New Booking"
+        tools:layout="@layout/fragment_booking" />
+    <fragment
+        android:id="@+id/bookingListFragment"
+        android:name="com.commdel.carservicewale.ui.fragments.BookingListFragment"
+        android:label="Booking List"
+        tools:layout="@layout/fragment_booking_list" />
+    <fragment
+        android:id="@+id/complaintFragment"
+        android:name="com.commdel.carservicewale.ui.fragments.ComplaintFragment"
+        android:label="Complain"
+        tools:layout="@layout/fragment_complaint" />
+</navigation>

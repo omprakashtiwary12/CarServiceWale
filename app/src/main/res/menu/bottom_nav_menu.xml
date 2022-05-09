@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:id="@id/navigation_home"
+      android:title="@string/homefragment"
+      android:icon="@drawable/ic_home"
+      />
+
+  <item android:id="@id/bookingFragment"
+        android:title="@string/booking"
+        android:icon="@drawable/ic_booking"
+      />
+
+  <item android:id="@id/bookingListFragment"
+        android:title="@string/booking_list"
+        android:icon="@drawable/ic_booking_list"/>
+
+  <item android:id="@id/complaintFragment"
+      android:title="@string/complain"
+      android:icon="@drawable/ic_complain"/>
+</menu>

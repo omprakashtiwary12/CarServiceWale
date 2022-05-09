@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.activities.ServiceCenterList">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mToolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List Service Center"
+            android:fontFamily="@font/verdana_bold"
+            android:textSize="@dimen/dimen_18sp"
+            android:textColor="@color/app_text_color"
+            android:layout_gravity="center"
+            android:id="@+id/txt_title" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/car_list"
+        android:layout_below="@id/mToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:itemCount="20"
+        app:layout_constraintTop_toBottomOf="@+id/mToolbar"
+        tools:listitem="@layout/servicecenter_list_item"
+        />
+
+</RelativeLayout>

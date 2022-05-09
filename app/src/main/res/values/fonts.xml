@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="robotoBold">roboto/Bold.ttf</string>
+    <string name="robotoLight">roboto/Light.ttf</string>
+    <string name="robotoMedium">roboto/Medium.ttf</string>
+    <string name="robotoMediumItalic">roboto/MediumItalic.ttf</string>
+    <string name="robotoRegular">roboto/Regular.ttf</string>
+    <string name="robotoThin">roboto/Thin.ttf</string>
+    <string name="montserrat_medium">montserrat/montserrat.ttf</string>
+    <string name="montserrat_semibold">montserrat/montserrat_semibold.ttf</string>
+    <string name="googlesans_medium">google/googlesansmedium.ttf</string>
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/screen_normal"
+        tools:context=".ui.activities.SearchActivity">
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/verdana_bold"
+            android:text="Car  Service  Wale"
+            android:textColor="@color/app_text_color"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/login_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/verdana"
+            android:text="Car Service at your convenience"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/login_title"
+            app:layout_constraintStart_toStartOf="@+id/login_title"
+            app:layout_constraintTop_toBottomOf="@+id/login_title" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/_60dp"
+            android:layout_height="@dimen/_60dp"
+            app:layout_constraintBottom_toBottomOf="@+id/login_subtitle"
+            app:layout_constraintEnd_toStartOf="@+id/login_title"
+            app:layout_constraintTop_toTopOf="@+id/login_title"
+            app:srcCompat="@drawable/icon" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/city_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_marginStart="@dimen/_32dp"
+            android:layout_marginEnd="@dimen/_32dp"
+            android:layout_marginTop="@dimen/dimen_48"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            android:background="@color/white"
+            android:hint="@string/select_city"
+            app:layout_constraintTop_toBottomOf="@+id/login_subtitle"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/auto_city"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/_16dp"
+                android:paddingBottom="@dimen/_16dp"
+                android:paddingStart="@dimen/_8dp"
+                android:textSize="@dimen/dimen_14sp"
+                android:fontFamily="@font/verdana"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:inputType="none"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/vehicle_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_marginStart="@dimen/_32dp"
+            android:layout_marginEnd="@dimen/_32dp"
+            android:layout_marginTop="@dimen/dimen_8"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            android:hint="@string/select_veihcle"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/city_container"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/auto_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_16dp"
+                android:paddingBottom="@dimen/_16dp"
+                android:paddingStart="@dimen/_8dp"
+                android:textSize="@dimen/dimen_14sp"
+                android:fontFamily="@font/verdana"
+                android:layout_weight="1"
+                android:inputType="none"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/brand_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_marginStart="@dimen/_32dp"
+            android:layout_marginEnd="@dimen/_32dp"
+            android:layout_marginTop="@dimen/dimen_8"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            android:hint="@string/select_brand"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/vehicle_container"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/auto_brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_16dp"
+                android:paddingBottom="@dimen/_16dp"
+                android:paddingStart="@dimen/_8dp"
+                android:textSize="@dimen/dimen_14sp"
+                android:fontFamily="@font/verdana"
+                android:layout_weight="1"
+                android:inputType="none"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/model_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_marginStart="@dimen/_32dp"
+            android:layout_marginEnd="@dimen/_32dp"
+            android:layout_marginTop="@dimen/dimen_8"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            android:hint="@string/select_model"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/brand_container"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/auto_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_16dp"
+                android:paddingBottom="@dimen/_16dp"
+                android:paddingStart="@dimen/_8dp"
+                android:textSize="@dimen/dimen_14sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/verdana"
+                android:inputType="none"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fuel_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_marginStart="@dimen/_32dp"
+            android:layout_marginEnd="@dimen/_32dp"
+            android:layout_marginTop="@dimen/dimen_8"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            android:hint="@string/select_fuel_type"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/model_container"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/autoFuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_16dp"
+                android:paddingBottom="@dimen/_16dp"
+                android:paddingStart="@dimen/_8dp"
+                android:textSize="@dimen/dimen_14sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/verdana"
+                android:inputType="none"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_done"
+            style="@style/NewNowNowButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/verdana"
+            android:padding="14dp"
+            android:text="@string/search_service_center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fuel_container" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

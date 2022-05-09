@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimary">#542864</color>
+    <!--<color name="colorPrimaryDark">#96181a</color>--><!--christmas card changes-->
+    <color name="colorPrimaryDark">#361940</color>
+    <color name="dark">#313C44</color>
+    <color name="app_text_color">#265ea8</color>
+    <color name="screen_normal">#fbfcff</color>
+    <color name="white_color_trans_80per">#ccffffff</color>
+    <color name="contextualActionBarColor">@color/dark</color>
+    <color name="colorAccent">#FAA732</color>
+    <color name="colorPrimarySelectOperator">#43B881</color>
+    <color name="colorPrimaryDarkSelectoprto">#4DBC87</color>
+    <color name="colorPrimarySelectPayBill1">#e76f6f</color>
+    <color name="colorPrimarySelectPayBill2">#e9bf16</color>
+    <color name="shimmer_color">#ffffff</color>
+    <color name="rippelColor">#0099CC</color>
+    <color name="yellow_colour_button">#FFA823</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_9ea6b2">#9ea6b2</color>
+    <color name="color_DBDDDE">#dbddde</color>
+    <color name="color_5d6b7f">#5d6b7f</color>
+    <color name="edit_text_color">#5d6b7f</color>
+    <color name="color_F2F4F5">#F2F4F5</color>
+    <color name="color_0FA8E8">#0FA8E8</color>
+    <color name="color_ccd9ec">#ccd9ec</color>
+    <color name="color_e8bb07">#e8bb07</color>
+    <color name="color_f8a641">#f8a641</color>
+    <color name="plan_141414">#141414</color>
+    <color name="edit_text_hint_color">#c9ced5</color>
+    <color name="divider_color">#F2F3F5</color>
+    <color name="color_edf2f8">#edf2f8</color>
+    <color name="tab_selected_text_color">#29a6ee</color>
+    <color name="tab_unselected_text_color">#758191</color>
+    <color name="edit_text_background_color">#f8f9fa</color>
+    <color name="edit_text_border_color">#e0e5ed</color>
+    <color name="tv_color_grey1">#333333</color>
+    <color name="tv_color_grey3">#b5b5b5</color>
+
+    <color name="default_window_bg">@color/color_F2F4F5</color>
+    <color name="back_qr_share_screen">#EFF4FB</color>
+    <color name="valuecolor">#5E6B7F</color>
+    <color name="rechcolor">#8C95A2</color>
+    <color name="color_FAA732">#FAA732</color>
+    <color name="color_C9CDD3">#C9CDD3</color>
+    <color name="tv_color_grey4">#666666</color>
+    <color name="network_error_title">#e56666</color>
+
+    <color name="bg_btn_light_blue_main">#03a9f4</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="bg_autocomplete_contact">#f5f6f9</color>
+    <color name="so_search_bg">#EFF4FA</color>
+    <color name="color_7d8999">#9ea6b2</color>
+    <color name="color_82cd94">#82cd94</color>
+    <color name="color_7b8192">#7b8192</color>
+    <color name="color_E3EDF8">#E3EDF8</color>
+    <color name="color_eff4fb">#EFF4FB</color>
+    <color name="color_f6f8f9">#F6F8F9</color>
+    <color name="color_D8DEE8">#D8DEE8</color>
+    <color name="color_40546d">#40546d</color>
+    <color name="category_black">#191919</color>
+    <color name="qr_black">#361a43</color>
+    <color name="color_aeb5bf">#aeb5bf</color>
+    <color name="color_546b7f">#546b7f</color>
+    <color name="network_error_explanation">#7d8999</color>
+    <color name="color_bbc3d1">#bbc3d1</color>
+    <color name="transaparent_color">#00000000</color>
+    <color name="color_f6838a">#f6838a</color>
+
+    <color name="ic_launcher_background">#88308A</color>
+
+    <color name="blue_3">#929dd9</color>
+
+    <color name="macaroni_and_cheese">#f4a334</color>
+    <color name="gray">#6E6E6F</color>
+    <color name="light_gray">#d3d3d3</color>
+    <color name="color_c9ced5">#c9ced5</color>
+    <color name="red">#E00000</color>
+    <color name="faded_red">#198a408d</color>
+    <color name="dark_green">#008000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_background">#0A78BF</color>
+    <color name="yellow">#ffbf00</color>
+
+    <color name="purple">#8D007F</color>
+    <color name="purpleNew">#5a189a</color>
+    <color name="pin_background">#eaeef4</color>
+
+    <color name="blackShade2">#2C2C2C</color>
+
+    <color name="lightGrey">#888888</color>
+
+    <color name="shadow">#d9d9d9</color>
+    <!--Home fragment screen-->
+    <!--Customer direction-->
+
+    <!--FilterredCab List Screen-->
+    <color name="colorTxtSeatLbl">#A5A5A5</color>
+    <!--DatePicker Screen-->
+    <color name="colorDarkApp">#8a2580</color>
+    <color name="gray_scale">#8affffff</color>
+    <color name="progress_secondary">@color/gray_scale</color>
+    <color name="progress_max_active">@color/white</color>
+
+    <color name="color_yellow1">#f4a200</color>
+    <color name="black">#000000</color>
+    <color name="shimmer_background_color">#44c9ccd1</color>
+    <color name="show_tm">#e62f59</color>
+    <!--NFC RELATED USAGES-->
+    <color name="textColor_darkGery">#333333</color>
+    <color name="gray_text_color">#818181</color>
+    <color name="black_text_main">#565555</color>
+    <color name="color_gray_bg">#565555</color>
+    <!--NFC RELATED USAGES END HERE-->
+    <color name="dark_gray">#838383</color>
+    <color name="gray_light">#F9F9F9</color>
+    <!--UpDated Screen Usages-->
+    <color name="success_greeen">#008000</color>
+    <color name="amt_light_greeen">#ffffff</color>
+    <color name="error_red">#e63946</color>
+    <color name="light_black_label">#707070</color>
+    <color name="status_grey">#f1f1f1</color>
+    <color name="pale_lavender">#f5ebff</color>
+    <color name="nav_bg">#2D0C4D</color>
+    <color name="pending_yellow">#f4a334</color>
+    <color name="failed_red">#e63946</color>
+    <color name="white_93">#edf8f8f8</color>
+    <color name="color_0d0d0d">#0d0d0d</color>
+    <color name="text_color">#141414</color>
+
+
+
+    <!--End Here-->
+    <!--DATE PICKER-->
+    <color name="selectedTextColor">#33aaff</color>
+    <color name="datepicker_divider">#cccccc</color>
+    <color name="color_de000000">#de000000</color>
+    <color name="dark_grey">#191919</color>
+    <color name="grey1">#f5ebff</color>
+    <color name="grey2">#595959</color>
+    <color name="purple_bg">#5a189a</color>
+    <color name="trans_white">#22ffffff</color>
+    <color name="trans_white_2">#33ffffff</color>
+    <color name="trans_white_1">#88ffffff</color>
+    <!--DATE PICKER ENDS-->
+
+
+    <!--BarCode Scanner View-->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_border">#ffafed44</color>
+    <color name="lipstick">#e63946</color>
+    <!--BarCode Scanner Ends-->
+</resources>

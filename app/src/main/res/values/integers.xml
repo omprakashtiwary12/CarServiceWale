@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_amount_length">9</integer>
+    <integer name="max_lenght_length_rc">50</integer>
+    <integer name="max_msisdn_length">10</integer>
+    <integer name="max_bvn_length">11</integer>
+    <integer name="otp_length">4</integer>
+    <integer name="name_length">35</integer>
+    <integer name="first_last_name_length">25</integer>
+    <integer name="email_length">50</integer>
+    <integer name="bank_length">30</integer>
+    <integer name="viewfinder_border_width">5</integer>
+    <integer name="viewfinder_border_length">5</integer>
+</resources>

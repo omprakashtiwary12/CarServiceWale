@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BarcodeScannerView">
+        <attr name="shouldScaleToFill" format="boolean" />
+        <attr name="laserEnabled" format="boolean" />
+        <attr name="laserColor" format="color" />
+        <attr name="borderColor" format="color" />
+        <attr name="maskColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderLength" format="dimension" />
+        <attr name="roundedCorner" format="boolean" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="squaredFinder" format="boolean" />
+        <attr name="borderAlpha" format="float" />
+        <attr name="finderOffset" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RealtimeBlurView">
+        <attr name="realtimeBlurRadius" format="dimension"/>
+        <attr name="realtimeDownsampleFactor" format="float"/>
+        <attr name="realtimeOverlayColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShadowLayout">
+        <attr name="sl_shadowed" format="boolean"/>
+        <attr name="sl_shadow_distance" format="dimension"/>
+        <attr name="sl_shadow_angle" format="integer"/>
+        <attr name="sl_shadow_radius" format="dimension"/>
+        <attr name="sl_shadow_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="DottedProgressBar">
+        <attr name="emptyDotsColor" format="color" />
+        <attr name="activeDotColor" format="color" />
+        <attr name="inactiveDot" format="reference|color" />
+        <attr name="activeDot" format="reference|color" />
+        <attr name="dotSize" format="dimension" />
+        <attr name="spacing" format="dimension" />
+        <attr name="jumpingSpeed" format="integer" />
+        <attr name="activeDotIndex" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="FixedAspectFrameLayout">
+        <attr name="aspectRatioWidth" format="integer" />
+        <attr name="aspectRatioHeight" format="integer" />
+        <attr name="lockWidth" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RecentTransactionView">
+        <attr name="mode" format="integer">
+            <enum name="mobile_recharge" value="2" />
+            <enum name="request_money" value="1" />
+            <enum name="mobile_data" value="15" />
+
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CurrentBalanceTextView">
+        <attr name="relatedProgressView" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalAmountView">
+        <attr name="isForAddMoney" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="PinViewTheme">
+        <attr name="pinViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PinView">
+        <attr name="itemCount" format="integer" />
+        <attr name="itemWidth" format="dimension" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemRadius" format="dimension" />
+        <attr name="itemSpacing" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="password" format="string"/>
+        <attr name="lineColor" format="reference|color" />
+        <attr name="viewType" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="line" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="android:cursorVisible" />
+        <attr name="cursorWidth" format="dimension" />
+        <attr name="cursorColor" format="reference|color" />
+        <attr name="android:itemBackground" />
+        <attr name="hideLineWhenFilled" format="boolean" />
+        <attr name="state_filled" format="boolean" />
+        <attr name="rtlTextDirection" format="boolean" />
+    </declare-styleable>
+
+    <!-- Define the values for the attribute -->
+    <attr name="typeface" format="enum">
+        <enum name="sf_light" value="0" />
+        <enum name="sf_regular" value="1" />
+        <enum name="sf_medium" value="2" />
+
+    </attr>
+
+    <!-- Tell Android that the class "CustomTextView" can be styled,
+         and which attributes it supports -->
+    <declare-styleable name="CustomView">
+        <attr name="typeface" />
+    </declare-styleable>
+
+
+    <declare-styleable name="AutofitTextView">
+        <!-- Minimum size of the text. -->
+        <attr name="minTextSize" format="dimension" />
+        <!-- Amount of precision used to calculate the correct text size to fit within its
+        bounds. Lower precision is more precise and takes more time. -->
+        <attr name="precision" format="float" />
+        <!-- Defines whether to automatically resize text to fit to the view's bounds. -->
+        <attr name="sizeToFit" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ShimmerLayout">
+        <attr name="shimmer_color" format="color|reference" />
+        <attr name="shimmer_animation_duration" format="integer|reference" />
+        <attr name="shimmer_auto_start" format="boolean|reference" />
+        <attr name="shimmer_angle" format="integer|reference" />
+        <attr name="shimmer_mask_width" format="float|reference" />
+        <attr name="shimmer_gradient_center_color_width" format="float|reference" />
+        <attr name="shimmer_reverse_animation" format="boolean|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Animateable">
+        <attr name="animation" format="integer">
+            <enum name="bounce" value="1" />
+            <enum name="bounceInRight" value="2" />
+            <enum name="bounceInLeft" value="3" />
+            <enum name="bounceInRightTop" value="36" />
+            <enum name="bounceInRightTopAlpha" value="39" />
+            <enum name="bounceInLeftTop" value="37" />
+            <enum name="bounceInUp" value="4" />
+            <enum name="bounceInDown" value="5" />
+            <enum name="flash" value="6" />
+            <enum name="rubberBand" value="7" />
+            <enum name="pulse" value="8" />
+            <enum name="shake" value="9" />
+            <enum name="swing" value="10" />
+            <enum name="wobble" value="11" />
+            <enum name="tada" value="12" />
+            <enum name="standUp" value="13" />
+            <enum name="wave" value="14" />
+            <enum name="rollin" value="15" />
+            <enum name="rollOut" value="16" />
+            <enum name="bounceIn" value="17" />
+            <enum name="fadeInUp" value="18" />
+            <enum name="fadeInDOwn" value="19" />
+            <enum name="fadeInLeft" value="20" />
+            <enum name="fadeInRight" value="21" />
+            <enum name="fadeOut" value="22" />
+            <enum name="fadeOutUp" value="23" />
+            <enum name="fadeOutDown" value="24" />
+            <enum name="fadeOutRight" value="25" />
+            <enum name="fadeOutLeft" value="26" />
+            <enum name="flipInX" value="27" />
+            <enum name="flipInY" value="28" />
+            <enum name="flipOutX" value="29" />
+            <enum name="flipOutY" value="30" />
+            <enum name="rotateIn" value="31" />
+            <enum name="rotateInDownLeft" value="32" />
+            <enum name="rotateInDownRight" value="33" />
+            <enum name="rotateInUpLeft" value="34" />
+            <enum name="rotateInUpRight" value="35" />
+            <enum name="scaleY" value="38" />
+        </attr>
+        <attr name="autoStart" format="boolean"/>
+        <attr name="startDelay" format="integer"/>
+        <attr name="repeatCount" format="integer"/>
+        <attr name="top_height" format="integer"/>
+        <attr name="top_width" format="integer"/>
+        <attr name="repeatMode" format="integer">
+            <enum name="INFINITE" value="-1"/>
+            <enum name="RESTART" value="1" />
+
+            <enum name="REVERSE" value="2" />
+
+            <enum name="START_ON_FIRST_FRAME" value="-1" />
+
+            <enum name="ABSOLUTE" value="0" />
+
+            <enum name="RELATIVE_TO_SELF" value="1" />
+
+            <enum name="RELATIVE_TO_PARENT" value="2" />
+
+            <enum name="ZORDER_NORMAL" value="0" />
+
+            <enum name="ZORDER_TOP" value="1" />
+
+
+            <enum name="ZORDER_BOTTOM" value="-1" />
+        </attr>
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+
+    <!--NFC REALTED USAGES-->
+    <declare-styleable name="CheckView">
+        <attr name="checkView_strokeWidth" format="dimension"/>
+        <attr name="checkView_strokeColor" format="color"/>
+    </declare-styleable>
+    <!--NFC UAGES END HERE-->
+
+        <declare-styleable name="RippleBackground">
+            <attr name="rb_color" format="color" />
+            <attr name="rb_strokeWidth" format="dimension"/>
+            <attr name="rb_radius" format="dimension"/>
+            <attr name="rb_duration" format="integer"/>
+            <attr name="rb_rippleAmount" format="integer"/>
+            <attr name="rb_scale" format="float"/>
+            <attr name="rb_type" format="enum">
+                <enum name="fillRipple" value="0"/>
+                <enum name="strokeRipple" value="1"/>
+            </attr>
+        </declare-styleable>
+    <!--DATE PICKER -->
+    <attr name="halfVisibleItemCount" format="integer"/>
+    <attr name="itemTextSize" format="dimension"/>
+    <attr name="itemMaximumWidthText" format="string"/>
+    <attr name="itemTextColor" format="color"/>
+    <attr name="textGradual" format="boolean"/>
+    <attr name="selectedTextColor" format="color"/>
+    <attr name="selectedTextSize" format="dimension"/>
+    <attr name="currentItemPosition" format="integer"/>
+    <attr name="itemWidthSpace" format="dimension"/>
+    <attr name="itemHeightSpace" format="dimension"/>
+    <attr name="zoomInSelectedItem" format="boolean"/>
+    <attr name="wheelCyclic" format="boolean"/>
+    <attr name="wheelCurtain" format="boolean"/>
+    <attr name="wheelCurtainColor" format="color"/>
+    <attr name="wheelCurtainBorder" format="boolean"/>
+    <attr name="wheelCurtainBorderColor" format="color"/>
+    <attr name="indicatorText" format="string"/>
+    <attr name="indicatorTextSize" format="dimension"/>
+    <attr name="indicatorTextColor" format="color"/>
+    <attr name="dayVisible" format="boolean"/>
+    <attr name="yearVisible" format="boolean"/>
+    <attr name="monthVisible" format="boolean"/>
+    <declare-styleable name="WheelPicker">
+        <attr name="halfVisibleItemCount"/>
+        <attr name="itemTextSize"/>
+        <attr name="itemMaximumWidthText"/>
+        <attr name="itemTextColor"/>
+        <attr name="textGradual"/>
+        <attr name="selectedTextColor"/>
+        <attr name="selectedTextSize"/>
+        <attr name="currentItemPosition"/>
+        <attr name="itemWidthSpace"/>
+        <attr name="itemHeightSpace"/>
+        <attr name="zoomInSelectedItem"/>
+        <attr name="wheelCyclic"/>
+        <attr name="wheelCurtain"/>
+        <attr name="wheelCurtainColor"/>
+        <attr name="wheelCurtainBorder" />
+        <attr name="wheelCurtainBorderColor"/>
+        <attr name="indicatorText"/>
+        <attr name="indicatorTextSize"/>
+        <attr name="indicatorTextColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="YearPicker">
+        <attr name="startYear" format="integer"/>
+        <attr name="endYear" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="MonthPicker">
+    </declare-styleable>
+
+    <declare-styleable name="DatePicker">
+        <attr name="halfVisibleItemCount"/>
+        <attr name="itemTextSize"/>
+        <attr name="itemTextColor"/>
+        <attr name="textGradual"/>
+        <attr name="selectedTextColor"/>
+        <attr name="selectedTextSize"/>
+        <attr name="itemWidthSpace"/>
+        <attr name="itemHeightSpace"/>
+        <attr name="zoomInSelectedItem"/>
+        <attr name="wheelCyclic"/>
+        <attr name="wheelCurtain"/>
+        <attr name="dayVisible"/>
+        <attr name="yearVisible"/>
+        <attr name="monthVisible"/>
+        <attr name="wheelCurtainColor"/>
+        <attr name="wheelCurtainBorder"/>
+        <attr name="wheelCurtainBorderColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="HourAndMinutePicker">
+        <attr name="halfVisibleItemCount"/>
+        <attr name="itemTextSize"/>
+        <attr name="itemTextColor"/>
+        <attr name="textGradual"/>
+        <attr name="selectedTextColor"/>
+        <attr name="selectedTextSize"/>
+        <attr name="itemWidthSpace"/>
+        <attr name="itemHeightSpace"/>
+        <attr name="zoomInSelectedItem"/>
+        <attr name="wheelCyclic"/>
+        <attr name="wheelCurtain"/>
+        <attr name="wheelCurtainColor"/>
+        <attr name="wheelCurtainBorder"/>
+        <attr name="wheelCurtainBorderColor"/>
+    </declare-styleable>
+    <!--DATE PICKER ENDS HERE-->
+
+    <declare-styleable name="StoriesProgressView">
+        <attr name="progressCount" format="integer|reference" />
+    </declare-styleable>
+
+    <!--Material Spinner-->
+    <declare-styleable name="MaterialSpinner">
+        <attr name="android:enabled" />
+        <attr name="android:focusable" />
+        <attr name="android:focusableInTouchMode" />
+        <attr name="android:prompt" />
+        <attr name="android:src" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="android:text" />
+        <attr name="android:gravity" />
+        <attr name="srcCompat" />
+        <attr name="spinnerMode" format="enum">
+            <enum name="dialog" value="0" />
+            <enum name="dropdown" value="1" />
+            <enum name="bottomsheet" value="2" />
+        </attr>
+    </declare-styleable>
+    <!--Material Spinner End-->
+    <declare-styleable name="EasyCountDownTextview">
+        <attr name="days" format="integer" />
+        <attr name="hours" format="integer" />
+        <attr name="minute" format="integer" />
+        <attr name="second" format="integer" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="showHours" format="boolean" />
+        <attr name="showDays" format="boolean" />
+        <attr name="start_automatically" format="boolean" />
+        <attr name="colonColor" format="color"/>
+        <attr name="digitBackground" format="reference|color"/>
+        <attr name="setAnimation" format="boolean"/>
+        <attr name="showOnlySecond" format="boolean"/>
+        <attr name="daysLabel" format="string"/>
+        <attr name="useFarsiNumeral" format="boolean"/>
+    </declare-styleable>
+
+</resources>

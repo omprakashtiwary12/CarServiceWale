@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.3145833333333333" />
+        <entry key="app/src/main/res/drawable-v24/avd_anim.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/avd_booking.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/avd_notification.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/border_material.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/half_round_grey.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/ic_cancel_black_.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/ic_edit_icon_profile.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/ic_edit_profile_icon.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/ic_hamburgur_black_24_px.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/ic_right_arrow.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable-v24/new_btn_selector.xml" value="0.2638888888888889" />
+        <entry key="app/src/main/res/drawable-v24/new_button_background.xml" value="0.2638888888888889" />
+        <entry key="app/src/main/res/drawable-v24/new_button_background_grey.xml" value="0.2638888888888889" />
+        <entry key="app/src/main/res/drawable/btn_benificary_dialog_bg.xml" value="0.17" />
+        <entry key="app/src/main/res/drawable/circleshape.xml" value="0.2638888888888889" />
+        <entry key="app/src/main/res/drawable/ic_arrowdown_black.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.1975" />
+        <entry key="app/src/main/res/drawable/ic_booking.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/drawable/ic_date.xml" value="0.17" />
+        <entry key="app/src/main/res/drawable/ic_right.xml" value="0.17" />
+        <entry key="app/src/main/res/drawable/ic_successfull.xml" value="0.17" />
+        <entry key="app/src/main/res/drawable/rect_round_white.xml" value="0.1075" />
+        <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.1975" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2074074074074074" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/activity_service_center_list.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/bottom_sheet_kyc.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/drop_down_item.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/dropdown_item.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/fragment_booking.xml" value="0.2507660878447395" />
+        <entry key="app/src/main/res/layout/fragment_booking_list.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/fragment_complaint.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/fragment_edit_profile_basic.xml" value="0.2351851851851852" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/fragment_new_booking.xml" value="0.2351851851851852" />
+        <entry key="app/src/main/res/layout/fragment_profile_main.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/item_dialog_remove.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/nownow_new_toolbar_update.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/payment_alert_dialog.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/progress_dialog_fragment.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/servicecenter_list_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/success_dialog_full_screen.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/details_menu.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/favorite_contextual_menu.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/recipes_menu.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/top_menu.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.12552083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
